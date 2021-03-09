@@ -1,0 +1,99 @@
+.field {
+	margin: 20px 0;
+}
+
+.error {
+	color: #e2401c;
+}
+
+.success {
+	color: #1155cc;
+}
+
+label {
+	display: block;
+}
+
+input,
+textarea {
+	display: block;
+	max-width: 600px;
+	width: 100%;
+}
+
+button {
+	padding: 10px;
+}
+
+.required {
+	border-bottom: 0 !important;
+	color: #e2401c;
+}
+
+.inquiry-form-wrapper {
+	max-width: 600px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+.inquiry-list-wrapper {
+	max-width: 1024px;	
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.inquiry-list .inquiry-fields-wrapper,
+.inquiry-list .inquiry-info {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: solid 1px #000;
+	padding: 10px 0;	
+}
+
+.inquiry-list .inquiry-info {
+	cursor: pointer;
+}
+
+.inquiry-list .inquiry-fields-wrapper div.inquiry-field,
+.inquiry-list .inquiry-info div.inquiry-info-value {
+	width: 25%;
+	text-align: center;
+}
+
+.inquiry-list .inquiry-fields-wrapper {
+	font-weight: 700;
+}
+
+.inquiry-pagination {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.inquiry-pagination .page-numbers {
+	list-style: none;
+}
+
+.inquiry-pagination .page-numbers li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.inquiry-pagination .page-numbers li > a,
+.inquiry-pagination .page-numbers li > span {
+	padding: 5px;
+}
+
+.inquiry-details {
+	width: 100%;
+	display: none;
+	margin: 20px 0;
+}
+
+.inquiry-details .field {
+	display: flex;
+}
+
+.inquiry-details .field .field-name {
+	margin-right: 10px;
+	min-width: 120px;
+}

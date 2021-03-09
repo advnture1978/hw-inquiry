@@ -1,5 +1,5 @@
 === Inquiry ===
-Contributors: Andre Verona
+Contributors: Harry Wang
 Requires at least: 4.7
 Tested up to: 5.5
 Requires PHP: 7.2 or later
